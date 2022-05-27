@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,29 @@
     <title>mor photo</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="flex h-screen justify-center items-center  bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-<span id="showtext" class=" hidden justify-center items-center font-semibold text-white text-2xl">screenshot nai nei ta ?</span>
-    <div id="hideimage" class="mx-4 max-w-sm rounded-xl shadow-xl border-4 border-white border-opacity-80">
 
-   
-     <img class="rounded-md"  src="https://lh3.googleusercontent.com/Ud9JUZnHZEfYTuuy4uhN8NOa3rckzM9vqrRqjlaWJJ4wnmluK5PgfLrUDuQDI5DQi1UvVmyRtYB12IV0TV2kfbh2rYIOG7O-YnXGW9r0G5ayRmvZbF8xN3IMwZh3zDf1yQBCiHz6Cd8=w600-h315-p-k" /> 
-     </div></div>
-<script>
-    setTimeout(function(){
-        document.getElementById('hideimage').style.display="none"
-    }, 3*1000 );
-    setTimeout(function(){
-        document.getElementById('showtext').style.display="block"
-    }, 3*1000 );
-</script>
+<body class="h-screen flex justify-center items-center  bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+    <div class="">
+        <span id="showtext" class=" hidden justify-center items-center font-semibold text-white text-2xl">screenshot nai
+            nei ta ?</span>
+        <div id="hideimage" class="mx-4 max-w-sm rounded-xl shadow-xl border-4 border-white border-opacity-80">
+
+
+            <img class="rounded-md"
+                src="https://lh3.googleusercontent.com/Ud9JUZnHZEfYTuuy4uhN8NOa3rckzM9vqrRqjlaWJJ4wnmluK5PgfLrUDuQDI5DQi1UvVmyRtYB12IV0TV2kfbh2rYIOG7O-YnXGW9r0G5ayRmvZbF8xN3IMwZh3zDf1yQBCiHz6Cd8=w600-h315-p-k" />
+        </div>
+
+    </div> <span class="fixed bottom-8 text-base font-medium">
+       <b> &lt;&sol;&gt;</b> by @dhiraj_512
+    </span>
+    <script>
+        setTimeout(function () {
+            document.getElementById('hideimage').style.display = "none"
+        }, 3 * 1000);
+        setTimeout(function () {
+            document.getElementById('showtext').style.display = "block"
+        }, 3 * 1000);
+    </script>
 </body>
+
 </html>
